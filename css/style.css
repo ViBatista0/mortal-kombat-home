@@ -42,12 +42,12 @@ body {
   background: url(../img/bottom.png) bottom center no-repeat;
 }
 
-button{
-    width: 250px;
-    height: 60px;
+button {
+  width: 250px;
+  height: 60px;
 }
 
-section {
+.container-info {
   padding: 0 100px 100px;
   display: flex;
   justify-content: center;
@@ -57,11 +57,40 @@ section {
   text-align: center;
 }
 
-section img {
+.container-info img {
   max-width: 800px;
 }
 
-section p {
+.container-info p {
   margin-top: 20px;
   text-align: center;
+}
+
+.btn {
+  border: 2px solid black;
+  border-radius: 30%;
+  background-color: #397eab;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: 10px 5px 10px rgb(43, 43, 43);
+  transition: 0.5s ease-out;
+}
+
+.btn:hover {
+  background-color: rgb(228, 158, 9);
+  cursor: pointer;
+}
+
+.btn-order {
+  position: absolute;
+  right: 15%;
+  bottom: 45%;
+}
+
+.container-media{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
 }
