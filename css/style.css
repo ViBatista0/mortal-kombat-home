@@ -35,7 +35,8 @@ body {
 
 #parallax .layer.overlay {
   background: url(../img/liu-kang-wfire.webp) left center no-repeat;
-  top: 30px;
+  top: 20px;
+
 }
 
 #parallax .layer.bottom {
