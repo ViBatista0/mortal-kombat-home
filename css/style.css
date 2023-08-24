@@ -8,7 +8,7 @@
 }
 
 body {
-  background: black;
+  background: rgb(0, 0, 0);
 }
 
 #parallax {
@@ -36,7 +36,6 @@ body {
 #parallax .layer.overlay {
   background: url(../img/liu-kang-wfire.webp) left center no-repeat;
   top: 20px;
-
 }
 
 #parallax .layer.bottom {
@@ -107,20 +106,8 @@ button {
   bottom: 45%;
 }
 
-.container-media {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 50px;
-  background-color: #397eab;
-}
-
-.container-media iframe {
-  border-radius: 25px;
-}
-
 .container-trailers {
   height: 100vh;
   background-color: #dcdcdc !important;
-  background: url(../img/bottom.png) top center no-repeat;
+
 }
